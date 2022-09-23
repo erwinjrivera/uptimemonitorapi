@@ -29,4 +29,10 @@ public class WeatherForecastController : ControllerBase
         })
         .ToArray();
     }
+
+    [HttpGet(Name ="{ip}")]
+    public string Ping()
+    {
+        return "pong";
+    }
 }
