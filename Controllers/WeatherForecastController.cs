@@ -1,6 +1,5 @@
 using Microsoft.AspNetCore.Mvc;
 using System.Net.NetworkInformation;
-using System.Text;
 
 namespace UptimeMonitorApi.Controllers;
 
@@ -33,8 +32,9 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet("{ip}")]
-    public string Ping(string ip)
+    public async Task<string> Ping(string ip)
     {
+        /*
         bool pingable = false;
         Ping pinger = null;
 
@@ -55,6 +55,20 @@ public class WeatherForecastController : ControllerBase
                 pinger.Dispose();
             }
         }
+        */
+
+        var pingSender = new Ping();
+            var hostNameOrAddress = "example.com";
+            
+            Console.Clear();
+            Console.WriteLine($"PING {hostNameOrAddress}");
+
+            for (int i = 0; i < 5; i++)
+            {
+                var reply = await pingSender.SendPingAsync(hostNameOrAddress);
+                Console.WriteLine($"{reply.Buffer.Length} bytes from {reply.Address}:" +
+                                  $" icmp_seq={i} status={reply.Status} time={reply.RoundtripTime}ms");
+            }
 
         return "true";
     }

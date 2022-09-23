@@ -49,6 +49,10 @@
             "Swashbuckle.AspNetCore": {
               "target": "Package",
               "version": "[6.2.3, )"
+            },
+            "System.Management": {
+              "target": "Package",
+              "version": "[7.0.0-rc.1.22426.10, )"
             }
           },
           "imports": [

@@ -25,3 +25,6 @@ C:\Users\Erwin\source\repos\UptimeMonitorApi\obj\Debug\net6.0\refint\UptimeMonit
 C:\Users\Erwin\source\repos\UptimeMonitorApi\obj\Debug\net6.0\UptimeMonitorApi.pdb
 C:\Users\Erwin\source\repos\UptimeMonitorApi\obj\Debug\net6.0\UptimeMonitorApi.genruntimeconfig.cache
 C:\Users\Erwin\source\repos\UptimeMonitorApi\obj\Debug\net6.0\ref\UptimeMonitorApi.dll
+C:\Users\Erwin\source\repos\UptimeMonitorApi\bin\Debug\net6.0\System.CodeDom.dll
+C:\Users\Erwin\source\repos\UptimeMonitorApi\bin\Debug\net6.0\System.Management.dll
+C:\Users\Erwin\source\repos\UptimeMonitorApi\bin\Debug\net6.0\runtimes\win\lib\net6.0\System.Management.dll

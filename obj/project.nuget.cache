@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "cRu60kI//ktmSMxi4X9IYxwox+dPLE+sRuc9YmF6juoaISPqh7hfgFyjGn3AqLxow/LcQ5L5f2Etjc0rm1MFzg==",
+  "dgSpecHash": "41N9e/uL3PB8PIBczZZnLnlCHiTP5zt/r/hgdxsRaB6DVBlqxjvoQF2LF6Vc7xeQyiBZC0sUkkVI1zLre7Lvzw==",
   "success": true,
   "projectFilePath": "C:\\Users\\Erwin\\source\\repos\\UptimeMonitorApi\\UptimeMonitorApi.csproj",
   "expectedPackageFiles": [
@@ -9,7 +9,9 @@
     "C:\\Users\\Erwin\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Erwin\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
     "C:\\Users\\Erwin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggergen\\6.2.3\\swashbuckle.aspnetcore.swaggergen.6.2.3.nupkg.sha512",
-    "C:\\Users\\Erwin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512"
+    "C:\\Users\\Erwin\\.nuget\\packages\\swashbuckle.aspnetcore.swaggerui\\6.2.3\\swashbuckle.aspnetcore.swaggerui.6.2.3.nupkg.sha512",
+    "C:\\Users\\Erwin\\.nuget\\packages\\system.codedom\\7.0.0-rc.1.22426.10\\system.codedom.7.0.0-rc.1.22426.10.nupkg.sha512",
+    "C:\\Users\\Erwin\\.nuget\\packages\\system.management\\7.0.0-rc.1.22426.10\\system.management.7.0.0-rc.1.22426.10.nupkg.sha512"
   ],
   "logs": []
 }
