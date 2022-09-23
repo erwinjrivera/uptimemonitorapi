@@ -1,4 +1,6 @@
 using Microsoft.AspNetCore.Mvc;
+using System.Net.NetworkInformation;
+using System.Text;
 
 namespace UptimeMonitorApi.Controllers;
 
@@ -31,8 +33,31 @@ public class WeatherForecastController : ControllerBase
     }
 
     [HttpGet("{ip}")]
-    public string Ping()
+    public string Ping(string ip)
     {
-        return "pong";
+        bool pingable = false;
+        Ping pinger = null;
+
+        try
+        {
+            pinger = new Ping();
+            PingReply reply = pinger.Send(ip);
+            pingable = reply.Status == IPStatus.Success;
+        }
+        catch (PingException ex)
+        {
+            return ex.GetBaseException().Message;
+        }
+        finally
+        {
+            if (pinger != null)
+            {
+                pinger.Dispose();
+            }
+        }
+
+        return "true";
     }
+
+
 }
